@@ -1,0 +1,84 @@
+/* Tailwind Customization (index.css or tailwind.css) */
+
+/* Adding custom font families (if needed) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Adding custom colors for Bangladesh theme */
+.text-custom-green {
+  color: #4CAF50; /* Bangladesh inspired green */
+}
+
+.text-custom-yellow {
+  color: #FFC107; /* Bangladesh flag inspired yellow */
+}
+
+.bg-custom-blue {
+  background-color: #007BFF; /* Custom blue for buttons and highlights */
+}
+
+.bg-custom-dark {
+  background-color: #343A40; /* Dark background for content sections */
+}
+
+.bg-custom-gradient {
+  background: linear-gradient(to right, #00695c, #004d40); /* Green gradient */
+}
+
+/* Adding shadows for card sections */
+.card-shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-hover:hover {
+  transform: translateY(-10px);
+  transition: transform 0.3s ease;
+}
+
+/* Adjusting font sizes for responsiveness */
+@media screen and (max-width: 768px) {
+  .text-responsive {
+    font-size: 1.25rem; /* Medium devices */
+  }
+
+  .button-responsive {
+    padding: 12px 24px;
+  }
+
+  .section-padding {
+    padding: 16px;
+  }
+}
+
+/* Button Styles */
+.button-primary {
+  background-color: #FFC107;
+  color: white;
+  padding: 16px 32px;
+  font-size: 18px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button-primary:hover {
+  background-color: #FF9800;
+  transform: scale(1.05);
+}
+
+.button-secondary {
+  background-color: #007BFF;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button-secondary:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}

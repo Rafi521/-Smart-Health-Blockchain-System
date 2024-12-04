@@ -1,0 +1,103 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Container */
+  div {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    background-color: #4CAF50;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Page Title */
+  h2 {
+    text-align: center;
+    color: #4CAF50;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  /* Patient List */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    background: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  ul li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  ul li p {
+    margin: 0;
+    font-size: 1.1em;
+    color: #555;
+  }
+  
+  ul li p:first-child {
+    font-weight: bold;
+    color: #222;
+  }
+  
+  /* Loading and Error Messages */
+  p {
+    text-align: center;
+    font-size: 1.2em;
+  }
+  
+  p[style="color: red"] {
+    font-weight: bold;
+    color: #e74c3c;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    div {
+      padding: 10px;
+    }
+  
+    h2 {
+      font-size: 1.5em;
+    }
+  
+    ul li {
+      padding: 10px;
+    }
+  
+    ul li p {
+      font-size: 1em;
+    }
+  }
+  
